@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "BetterDays",
+    "slug": "betterdays",
+    "scheme": "betterdays",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.betterdays.app"
+    },
+    "android": {
+      "package": "com.betterdays.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#DDE9D9"
+      }
+    }
+  }
+}
